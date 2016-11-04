@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Blog Sample</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body  class="hold-transition skin-blue sidebar-mini login-page">
+<div class="wrapper">
+    <div class = "content-wrapper">
+        <session class="content-header">
+            <h1 >
+                WELCOME TO MY BLOG
+            </h1>
+        </session>
+        <session class = "content">
+            <div class = "row" >
+                <div class="col-xs-12">
+                    <div class="box">
+                        <table id="example2" class="table table-bordered table-hover">
+                            <tr>
+                                <td>Author</td>
+                                <td>Subject</td>
+                                <td>Content</td>
+                            </tr>
+                            <tbody id ='subject'></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class = "row" >
+                <div class="col-xs-2">
+                    <input type="textbox" class="form-control" placeholder="email" id = "email" name="email">
+                </div>
+            </div>
+            <div class = "row" >
+                <div div class="col-xs-2">
+                    <input type="password" class="form-control" placeholder="Password" id = "password" name="password">
+                </div>
+            </div>
+            <div class = "row" >
+                <div class="col-xs-1">
+                    <input id="signin" type="submit" onclick="login()" value = "Sign In"/>
+                </div>
+                <div class="col-xs-1">
+                    <a id="signup" href="/create-user">Sign Up</a>
+                </div>
+            </div>
+        </session>
+    </div>
+</div>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="/js/blog.js"></script>
+</body>
+</html>
